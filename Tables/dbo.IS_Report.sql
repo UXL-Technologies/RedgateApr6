@@ -1,0 +1,31 @@
+CREATE TABLE [dbo].[IS_Report]
+(
+[Id] [int] NOT NULL,
+[Product] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL,
+[First_Name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Last_Name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[DOB] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Company_Institution_Name] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Email] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Customer_State] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Country] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Tag_Ids] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Tags] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Job_Title] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[UserName] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Suffix] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Place_Of_Work_Or_Study] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Professional_Category] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Specialty] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Secondary_Specialty] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Secure_Password] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[External_NEJM_Group_CustomerID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[External_NPI_Number] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ABIM_ID] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[State_Of_Primary_Practice] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Prescribers] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Length_Of_Time_In_Practice] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[Surgical_Procedure] [nvarchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NULL,
+[ACS_License_Info] [nvarchar] (max) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+)
+GO
